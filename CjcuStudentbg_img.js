@@ -4,7 +4,7 @@ var photo=document.querySelectorAll('img');
 photo[1].src='https://imgur.dcard.tw/JII96rfh.jpg';
 photo[1].style.backgroundSize = 'auto';
 //通知訊息 更改背景
-// 123456789
+
 try{
     var massenger = document.getElementsByClassName('alert alert-success')[0];
     //上面[0]是因為如果有同Class可以指定第幾個
